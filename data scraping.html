@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>LinkedIn Job Search</title>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+
+<body>
+    <h1>LinkedIn Job Search</h1>
+    <form id="jobSearchForm">
+        <label for="jobLocation">Job Location:</label>
+        <input type="text" id="jobLocation" name="jobLocation"  placeholder="Enter Location" required><br>
+
+        <label for="jobType">Job Type:</label>
+        <select id="jobType" name="jobType">
+            <option value="F">Full Time</option>
+            <option value="P">Part Time</option>
+            <option value="T">Training</option>
+            <option value="C">Contract</option>
+            <option value="I">Internship</option>
+        </select><br>
+
+        <label for="company">Company:</label>
+        <input type="text" id="company" name="company" placeholder="Enter company"><br>
+
+        <label for="jobRole">Job Role:</label>
+        <input type="text" id="jobRole" name="jobRole" placeholder="Enter Job Role"><br>
+
+        <button type="submit" id="submitBtn">Search Jobs</button>
+    </form>
+
+    <div id="jobResults">
+
+    </div>
+   <script src="index.js"></script>
+    
+</body>
+
+</html>
+
+
+
+
+
+
+
+
